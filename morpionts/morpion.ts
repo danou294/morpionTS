@@ -85,7 +85,7 @@ document.querySelectorAll('.case').forEach(item => {
             if (getWinner(board)!= null) {
                 let victoireContainer = document.createElement('h1')
                 victoireContainer.className = "victoire"
-                victoireContainer.textContent = "le joueur " + getWinner(board) + " a gagné !"
+                victoireContainer.textContent = "Le joueur " + getWinner(board) + " a gagné !"
 
                 let relancer = document.createElement("a")
                 relancer.href = "jeu.html"
@@ -99,7 +99,7 @@ document.querySelectorAll('.case').forEach(item => {
                 })
             }
             if (i === 9 && getWinner(board)==null){
-                let victoireContainer = document.createElement('h1')
+                let victoireContainer = document.createElement('h2')
                 victoireContainer.className = "victoire"
                 victoireContainer.textContent = "Egalité ! n'hesitez pas à reesayer !"
 
