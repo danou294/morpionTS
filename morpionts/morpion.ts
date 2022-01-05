@@ -101,7 +101,7 @@ document.querySelectorAll('.case').forEach(item => {
             if (i === 9 && getWinner(board)==null){
                 let victoireContainer = document.createElement('h2')
                 victoireContainer.className = "victoire"
-                victoireContainer.textContent = "Egalité ! n'hesitez pas à reesayer !"
+                victoireContainer.textContent = "Egalité ! N'hesitez pas à réesayer !"
 
                 let relancer = document.createElement("a")
                 relancer.href = "jeu.html"
